@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <p class="below">Feel free to reach out to me via the submission box</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">About/Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="grid-container"></div>
+      <div class="grid-item">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+  
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+  
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="email.js"></script>
+</body>
+</html>
